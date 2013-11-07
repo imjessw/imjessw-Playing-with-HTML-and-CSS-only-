@@ -1,0 +1,81 @@
+
+body{
+	vertical-align: center;
+	background-color: #1F2459;
+	
+/*	background-color: #1F2459;*/
+	
+
+}
+.bothHeaders{
+	padding-left: 40px;
+	padding-top: 100px;
+	color:#5AA0B7;
+	text-align: left;
+	font-family: 'Arimo', sans-serif;
+}
+h1{
+	text-align: left;
+	margin-top: 150px;
+	color:#B0C6D9;
+	font-size: 75px;
+	margin-bottom: 25px;
+}
+h2{
+	color: #7F7CAE;
+	font-size: 25px;
+
+}
+.MainPhoto{
+	border-top: 0px;
+	padding-top: 40px;
+	margin-top: 0px;
+	background-image: url('http://upload.wikimedia.org/wikipedia/commons/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg');
+	max-width: 960px;
+	min-height: 500px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+}
+.bodyMain{
+	top:-325px;
+	background-color: #5AA0B7;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 15px;
+	font-family: 'Sintony', sans-serif;
+	color: white;
+	margin-left: 475px;
+	margin-right: 5px;
+	position:relative;
+	display:inline-block; 
+	padding-right: 35px;
+	font-size: 20px;
+	
+}
+#RSVP{
+	color:white;
+	font-size: 20px;
+	background-color: #1F2459;
+	padding: 10px 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right:200px;
+	margin-left: 160px;	
+}
+.dateAndTime{
+	padding-left:35px;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	margin-right: 550px;
+	margin-left: 35px;
+	font-family: 'Sintony', sans-serif;
+	font-size: 35px;
+	background-color: #7F7CAE;
+	position: relative;
+
+}
+
