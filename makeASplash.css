@@ -65,6 +65,12 @@ h2{
 	margin-bottom: 15px;
 	margin-right:200px;
 	margin-left: 160px;	
+	
+}
+#RSVP:hover{
+	-webkit-transition: width 2s;
+	background-color: white;
+	color: #1F2459;
 }
 .dateAndTime{
 	padding-left:35px;
