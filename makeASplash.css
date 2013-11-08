@@ -18,17 +18,18 @@ body{
 }*/
 h1{
 	font-family: 'Rammetto One', cursive;
-	text-align: right;
-	margin-right: 122px;
-	margin-top: 150px;
-	color:#1e3561;
+	text-align: left;
+	margin-left: 120px;
+	margin-top: 122px;
+	color:#d6d7ff;
 	font-size: 45px;
 	margin-top: 50px;
 	margin-bottom: 25px;
 }
 
 }
-h2{
+h3{
+	font-size: 15px;
 	font-family: 'Rammetto One', cursive;
 }
 .MainPhoto{
@@ -44,22 +45,28 @@ h2{
 
 }
 .bodyMain{
-	top:-225px;
-	background-color: #5AA0B7;
+	top:-255px;
+	background-color: #7F7CAE;
 	text-align: center;
 	margin-top: 0px;
 	padding-top: 0px;
-	text-align: right;
-	padding-left: 5px;
-	padding-right: 15px;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 0px;
 	font-family: 'Rammetto One', cursive;
-	
-	margin-left: 475px;
-	margin-right: 5px;
+	margin-top: 15px;
+	margin-left: 320px;
+	margin-right: 25px;
 	position:relative;
 	display:inline-block; 
 	padding-right: 35px;
-	font-size: 20px;
+	font-size: 19px;
+	border-radius: 2px:;
+	border:2px solid;
+	border-left-color: #1d1e32;
+	border-top-color: #1d1e32;
+	border-right-color: black;
+	border-bottom-color: black;
 	
 }
 
@@ -69,33 +76,49 @@ h2{
 	color:#1F2459;
 	font-size: 45px;
 	background-color: white;
-	padding: 10px 35px;
-	margin-top: 25px;
+	padding: 10px 30px;
+	margin-top: 325px;
 	margin-bottom: 25px;
-	margin-left: 575px;	
-	margin-top: -550px;
+	margin-left: 600px;	
+	margin-top: -695px;
+	/*border-radius: 0px;*/
 
 	
 }
 #RSVP:hover{
 	-webkit-transition: width 2s;
+	-moz-transition: width 2s;
+	-o-transition:width 2s;
 	background-color: #1F2459;
 	color: white;
 }
 .dateAndTime{
 	font-family: 'Rammetto One', cursive;
-	padding-left:35px;
-	padding-top: 35px;
+	padding-left:15px;
+	padding-top: 15px;
 	padding-bottom: 50px;
-	margin-top: -62px;
+	margin-top: -188px;
 	margin-right: 489px;
-	margin-left: 83px;
+	margin-left: 60px;
 	font-size: 35px;
 	background-color: #7F7CAE;
-	position: relative;
-
+	border:2px solid;
+	border-left-color: black;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	
 }
+.socials{
+	margin-left: 370px;
+	/*padding-left: 170px;
+	padding-bottom: 135px;*/
+	margin-top: -155px;
+	margin-bottom: 198px;
 
+	
+	
+}
 /*break point set for 768 for ipads and lanscape phones*/
 @media (max-width: 768px){
 	.MainPhoto{
@@ -115,45 +138,190 @@ h2{
 	color: #1F2459;
 	font-family: 'Rammetto One', cursive;
 }
+.socials{
+	margin-left: 230px;
+	/*padding-left: 170px;
+	padding-bottom: 135px;*/
+	margin-top: -155px;
+	margin-bottom: 198px;
+
 
 }
-/*break point made for mobile phones*/
-@media (max-width: 480px){
-	#RSVP{
-		font-size: 20px
-		display:block;
-	}
-	
-	.dateAndTime{
-	font-family: 'Rammetto One', cursive;
-	padding-left:5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	display: inline-block;
-	margin-left: 5px;
-	font-size: 10px;
-	background-color: #7F7CAE;
-	position: relative;
-
-}
-.MainPhoto{
+@media (max-width: 768px){
+	.MainPhoto{
 	border-top: 0px;
 	padding-top: 40px;
 	margin-top: 0px;
-	border-bottom: solid;
-	background-image: url("Small480NycCrop.png");
-	max-width: 480px;
-	min-width: 400px;
-	max-height: 200px;
+	background-image: url('Med768NycCrop.png');
+	max-width: 768px;
+	min-height: 500px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 
 }
-h2{
-	font-family: 'Rammetto One', cursive;
-	color: #7F7CAE;
-	font-size: 15px;
+	#RSVP{
 
+		font-family: 'Rammetto One', cursive;
+		color:#1F2459;
+		font-size: 35px;
+		background-color: white;
+		padding: 5px 25px;
+		margin-top: 325px;
+		margin-bottom: 25px;
+		margin-left: 505px;	
+		margin-top: -595px;
+		
+	}
+	#RSVP:hover{
+	-webkit-transition: width 2s;
+	background-color: #1F2459;
+	color: white;
+	font-family: 'Rammetto One', cursive;
 }
+.socials{
+	margin-left: 268px;
+	/*padding-left: 170px;
+	padding-bottom: 135px;*/
+	margin-top: -225px;
+	margin-bottom: 198px;
+}
+	.dateAndTime{
+		font-family: 'Rammetto One', cursive;
+		padding-left:10px;
+		padding-top: 15px;
+		padding-bottom: 50px;
+		margin-top: -188px;
+		margin-right: 589px;
+		margin-left: 60px;
+		font-size: 15px;
+		background-color: #7F7CAE;
+		border:2px solid;
+		border-left-color: black;
+		border-top-color: black;
+		border-right-color: black;
+		border-bottom-color: black;
+	}
+		.bodyMain{
+		max-width: 430px;
+		top:-265px;
+		background-color: #7F7CAE;
+		text-align: center;
+		margin-top: 0px;
+		padding-top: 0px;
+		text-align: left;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-family: 'Rammetto One', cursive;
+		margin-top: 115px;
+		margin-left: 300px;
+		margin-right: 5px;
+		position:relative;
+		display:inline-block; 
+		padding-right: 35px;
+		font-size: 17px;
+		border-radius: 2px:;
+		border:2px solid;
+		border-left-color: #1d1e32;
+		border-top-color: #1d1e32;
+		border-right-color: black;
+		border-bottom-color: black;
+	}
+	
+}
+/*break point made for mobile phones*/
+@media (max-width: 480px){
+	h1{
+		margin-top: 15px;
+		font-size: 35px;
+	}
+	#RSVP{
+
+		font-family: 'Rammetto One', cursive;
+		color:#1F2459;
+		font-size: 25px;
+		background-color: white;
+		padding: 5px 25px;
+		margin-top: 125px;
+		margin-bottom: 25px;
+		margin-left: 60px;	
+		margin-top: -305px;
+		
+	}
+	#RSVP:hover{
+	-webkit-transition: width 2s;
+	background-color: #1F2459;
+	color: white;
+	font-family: 'Rammetto One', cursive;
+}
+	
+	.dateAndTime{
+		text-align: center;
+		font-family: 'Rammetto One', cursive;
+		padding-left:20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px;
+		margin-top: -278px;
+		margin-right: 525px;
+		margin-left: 40px;
+		font-size: 13px;
+		background-color: #7F7CAE;
+		border:2px solid;
+		border-left-color: black;
+		border-top-color: black;
+		border-right-color: black;
+		border-bottom-color: black;
+	}
+		.bodyMain{
+		max-width: 396px;
+		top:-355px;
+		background-color: #7F7CAE;
+		text-align: center;
+		margin-top: 0px;
+		padding-top: 0px;
+		text-align: left;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-family: 'Rammetto One', cursive;
+		margin-top: 315px;
+		margin-left: 40px;
+		margin-right: 0px;
+		position:relative;
+		display:inline-block; 
+		padding-right: 35px;
+		font-size: 13px;
+		border-radius: 2px:;
+		border:2px solid;
+		border-left-color: black;
+		border-top-color: #1d1e32;
+		border-right-color: black;
+		border-bottom-color: black;
+	}
+	.MainPhoto{
+		border-top: 0px;
+		padding-top: 40px;
+		margin-top: 0px;
+		border-bottom: solid;
+		background-image: url("Small480NycCrop.png");
+		max-width: 480px;
+		min-width: 400px;
+		max-height: 200px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+
+	}
+
+	h2{
+		font-family: 'Rammetto One', cursive;
+		color: #7F7CAE;
+		font-size: 15px;
+
+	}
+	.socials{
+	margin-left: 298px;
+	margin-top: -225px;
+	margin-bottom: 198px;
+}
+
 
 }
