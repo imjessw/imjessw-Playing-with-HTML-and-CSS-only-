@@ -1,36 +1,42 @@
 
 body{
+	font-family: 'Rammetto One', cursive;
 	vertical-align: center;
-	background-color: #1F2459;
+	background-color: #1d1e32;
 	
-/*	background-color: #1F2459;*/
+/*	background-color: #1F2459,#2f3243,#1e3561*/
+
 	
 
 }
-.bothHeaders{
+/*.bothHeaders{
 	padding-left: 40px;
 	padding-top: 100px;
-	color:#5AA0B7;
+	color:#1F2459;
 	text-align: left;
 	font-family: 'Arimo', sans-serif;
-}
+}*/
 h1{
-	text-align: left;
+	font-family: 'Rammetto One', cursive;
+	text-align: right;
+	margin-right: 122px;
 	margin-top: 150px;
-	color:#B0C6D9;
-	font-size: 75px;
+	color:#1e3561;
+	font-size: 45px;
+	margin-top: 50px;
 	margin-bottom: 25px;
 }
-h2{
-	color: #7F7CAE;
-	font-size: 25px;
 
+}
+h2{
+	font-family: 'Rammetto One', cursive;
 }
 .MainPhoto{
 	border-top: 0px;
 	padding-top: 40px;
 	margin-top: 0px;
-	background-image: url('http://upload.wikimedia.org/wikipedia/commons/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg');
+	display: block;
+	background-image: url('Big960NycCrop.png');
 	max-width: 960px;
 	min-height: 500px;
 	padding-bottom: 0px;
@@ -38,7 +44,7 @@ h2{
 
 }
 .bodyMain{
-	top:-325px;
+	top:-225px;
 	background-color: #5AA0B7;
 	text-align: center;
 	margin-top: 0px;
@@ -46,8 +52,8 @@ h2{
 	text-align: right;
 	padding-left: 5px;
 	padding-right: 15px;
-	font-family: 'Sintony', sans-serif;
-	color: white;
+	font-family: 'Rammetto One', cursive;
+	
 	margin-left: 475px;
 	margin-right: 5px;
 	position:relative;
@@ -56,32 +62,98 @@ h2{
 	font-size: 20px;
 	
 }
+
 #RSVP{
-	color:white;
-	font-size: 20px;
-	background-color: #1F2459;
-	padding: 10px 25px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-right:200px;
-	margin-left: 160px;	
+
+	font-family: 'Rammetto One', cursive;
+	color:#1F2459;
+	font-size: 45px;
+	background-color: white;
+	padding: 10px 35px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 575px;	
+	margin-top: -550px;
+
 	
 }
 #RSVP:hover{
 	-webkit-transition: width 2s;
-	background-color: white;
-	color: #1F2459;
+	background-color: #1F2459;
+	color: white;
 }
 .dateAndTime{
+	font-family: 'Rammetto One', cursive;
 	padding-left:35px;
 	padding-top: 35px;
 	padding-bottom: 50px;
-	margin-right: 550px;
-	margin-left: 35px;
-	font-family: 'Sintony', sans-serif;
+	margin-top: -62px;
+	margin-right: 489px;
+	margin-left: 83px;
 	font-size: 35px;
 	background-color: #7F7CAE;
 	position: relative;
 
 }
 
+/*break point set for 768 for ipads and lanscape phones*/
+@media (max-width: 768px){
+	.MainPhoto{
+	border-top: 0px;
+	padding-top: 40px;
+	margin-top: 0px;
+	background-image: url('Med768NycCrop.png');
+	max-width: 768px;
+	min-height: 500px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+}
+	#RSVP:hover{
+	-webkit-transition: width 2s;
+	background-color: white;
+	color: #1F2459;
+	font-family: 'Rammetto One', cursive;
+}
+
+}
+/*break point made for mobile phones*/
+@media (max-width: 480px){
+	#RSVP{
+		font-size: 20px
+		display:block;
+	}
+	
+	.dateAndTime{
+	font-family: 'Rammetto One', cursive;
+	padding-left:5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 10px;
+	background-color: #7F7CAE;
+	position: relative;
+
+}
+.MainPhoto{
+	border-top: 0px;
+	padding-top: 40px;
+	margin-top: 0px;
+	border-bottom: solid;
+	background-image: url("Small480NycCrop.png");
+	max-width: 480px;
+	min-width: 400px;
+	max-height: 200px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+}
+h2{
+	font-family: 'Rammetto One', cursive;
+	color: #7F7CAE;
+	font-size: 15px;
+
+}
+
+}
